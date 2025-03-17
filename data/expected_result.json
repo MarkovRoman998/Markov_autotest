@@ -1,0 +1,252 @@
+{
+    "emails": [
+        {
+            "id": "1",
+            "name": "frozen_account_RU",
+            "language": "ru",
+            "document": "C:\\Users\\Roman\\PycharmProjects\\TEST_FROZEN_ACCOUNT\\Emails\\frozen_account_RU.html",
+            "content": [
+                {
+                    "selector": "h-link-1",
+                    "type": "link",
+                    "expected": "https://mostbet-ru30.com?utm_medium=email&utm_source=system&content=logo&utm_campaign=frozen_account"
+                },
+                {
+                    "selector": "h-link-2",
+                    "type": "link",
+                    "expected": "https://mostbet-ru30.com/profile/refill?utm_medium=email&utm_source=system&content=refill&utm_campaign=frozen_account"
+                },
+                {
+                    "selector": "h-link-3",
+                    "type": "link",
+                    "expected": "https://mostbet-ru30.com/profile/edit?utm_medium=email&utm_source=system&content=profile&utm_campaign=frozen_account"
+                },
+                {
+                    "selector": "h-link-4",
+                    "type": "link",
+                    "expected": "https://mostbet-ru30.com/pregame?utm_medium=email&utm_source=system&content=pregame&utm_campaign=frozen_account"
+                },
+                {
+                    "selector": "h-link-5",
+                    "type": "link",
+                    "expected": "https://mostbet-ru30.com/live?utm_medium=email&utm_source=system&content=live&utm_campaign=frozen_account"
+                },
+                {
+                    "selector": "h-link-6",
+                    "type": "link",
+                    "expected": "https://mostbet-ru30.com/casino?utm_medium=email&utm_source=system&content=casino&utm_campaign=frozen_account"
+                },
+                {
+                    "selector": "h-link-7",
+                    "type": "link",
+                    "expected": "https://mostbet-ru30.com/live-casino?utm_medium=email&utm_source=system&content=live_casino&utm_campaign=frozen_account"
+                },
+                {
+                    "selector": "h-link-8",
+                    "type": "link",
+                    "expected": "https://mostbet-ru30.com/aviator?utm_medium=email&utm_source=system&content=aviator&utm_campaign=frozen_account"
+                },
+                {
+                    "selector": "b-link-1",
+                    "type": "link",
+                    "expected": "https://mostbet-ru30.com/profile/edit?utm_medium=email&utm_source=system&content=banner&utm_campaign=frozen_account"
+                },
+                {
+                    "selector": "b-link-2",
+                    "type": "link",
+                    "expected": "mailto:id@mostbet.com"
+                },
+                {
+                    "selector": "b-link-3",
+                    "type": "link",
+                    "expected": "https://mostbet-ru30.com/profile/edit?utm_medium=email&utm_source=system&content=button1&utm_campaign=frozen_account"
+                },
+                {
+                    "selector": "b-link-4",
+                    "type": "link",
+                    "expected": "mailto:id@mostbet.com"
+                },
+                {
+                    "selector": "f-link-1",
+                    "type": "link",
+                    "expected": "https://mostbet-ru30.com/apk/download?utm_medium=email&utm_source=system&content=android&utm_campaign=frozen_account"
+                },
+                {
+                    "selector": "f-link-2",
+                    "type": "link",
+                    "expected": "https://mostbet-ru30.com/app?platform=ios&utm_medium=email&utm_source=system&content=ios&utm_campaign=frozen_account"
+                },
+                {
+                    "selector": "f-social-link-1",
+                    "type": "link",
+                    "expected": "https://www.instagram.com/mostbetru/?utm_medium=email&utm_source=system&utm_campaign=frozen_account&content=instagram"
+                },
+                {
+                    "selector": "f-social-link-2",
+                    "type": "link",
+                    "expected": "https://vk.com/mostbetrussia?utm_medium=email&utm_source=system&utm_campaign=frozen_account&content=vk"
+                },
+                {
+                    "selector": "f-social-link-3",
+                    "type": "link",
+                    "expected": "https://t.me/+s259niHYNuE2"
+                },
+                {
+                    "selector": "f-link-3",
+                    "type": "link",
+                    "expected": "mailto:support@mostbet.com"
+                },
+                {
+                    "selector": "f-link-4",
+                    "type": "link",
+                    "expected": "#UNSUBSCRIBE_HREF#"
+                },
+                {
+                    "selector": "h-img-1",
+                    "type": "image",
+                    "expected": "https://suite38.emarsys.net/custloads/799213038/md_550263.png"
+                },
+                {
+                    "selector": "h-img-2",
+                    "type": "image",
+                    "expected": "http://suite38.emarsys.net/custloads/799213038/md_550266.png"
+                },
+                {
+                    "selector": "b-img-1",
+                    "type": "image",
+                    "expected": "https://suite38.emarsys.net/custloads/799213038/md_677297.png"
+                },
+                {
+                    "selector": "f-img-1",
+                    "type": "image",
+                    "expected": "https://suite38.emarsys.net/custloads/799213038/md_746580.png"
+                },
+                {
+                    "selector": "f-img-2",
+                    "type": "image",
+                    "expected": "https://suite38.emarsys.net/custloads/799213038/md_855396."
+                },
+                {
+                    "selector": "h-text-1",
+                    "type": "text",
+                    "expected": "ПОПОЛНИТЬ"
+                },
+                {
+                    "selector": "h-text-2",
+                    "type": "text",
+                    "expected": "ЛИНИЯ"
+                },
+                {
+                    "selector": "h-text-3",
+                    "type": "text",
+                    "expected": "LIVE"
+                },
+                {
+                    "selector": "h-text-4",
+                    "type": "text",
+                    "expected": "КАЗИНО"
+                },
+                {
+                    "selector": "h-text-5",
+                    "type": "text",
+                    "expected": "LIVE КАЗИНО"
+                },
+                {
+                    "selector": "h-text-6",
+                    "type": "text",
+                    "expected": "AVIATOR"
+                },
+                {
+                    "selector": "b-text-1",
+                    "type": "text",
+                    "expected": "Ваш аккаунт был заморожен"
+                },
+                {
+                    "selector": "b-text-2",
+                    "type": "text",
+                    "expected": "Добрый день, уважаемый игрок!"
+                },
+                {
+                    "selector": "b-text-3",
+                    "type": "text",
+                    "expected": "Для проведения процедуры идентификации Вам необходимо направить на почту"
+                },
+                {
+                    "selector": "b-text-4",
+                    "type": "text",
+                    "expected": "id@mostbet.com"
+                },
+                {
+                    "selector": "b-text-5",
+                    "type": "text",
+                    "expected": "следующие данные"
+                },
+                {
+                    "selector": "b-text-6",
+                    "type": "text",
+                    "expected": "1. Фотографию банковской карты, с которой был внесен депозит (если карт несколько - достаточно предоставить фото одной), а также селфи с этой картой"
+                },
+                {
+                    "selector": "b-text-7",
+                    "type": "text",
+                    "expected": "2. Вашу фотографию с паспортом возле лица (все данные в документе должны быть отчетливо видны и не закрыты)"
+                },
+                {
+                    "selector": "b-text-8",
+                    "type": "text",
+                    "expected": "3.Фотографию Вашего паспорта со всеми персональными данными, рядом с другим Вашим личным документом на выбор (ИНН, СНИЛС, водительское удостоверение, свидетельство о рождении, загранпаспорт, военный билет и другие)"
+                },
+                {
+                    "selector": "b-text-9",
+                    "type": "text",
+                    "expected": "4.Логин Skype"
+                },
+                {
+                    "selector": "b-text-10",
+                    "type": "text",
+                    "expected": "5.ID Вашего игрового счета (ID указан в личном кабинете в правом верхнем углу под кнопкой \"Личный кабинет\")"
+                },
+                {
+                    "selector": "b-text-11",
+                    "type": "text",
+                    "expected": "В ЛИЧНЫЙ КАБИНЕТ"
+                },
+                {
+                    "selector": "b-text-12",
+                    "type": "text",
+                    "expected": "Предоставить документы необходимо в течение 14 дней с момента поступления соответствующего уведомления (п.п4)"
+                },
+                {
+                    "selector": "b-text-13",
+                    "type": "text",
+                    "expected": "После предоставления необходимых документов, Вам будет назначена видеоконференция в Skype для идентификации"
+                },
+                {
+                    "selector": "b-text-14",
+                    "type": "text",
+                    "expected": "Все данные необходимо направить в одном письме"
+                },
+                {
+                    "selector": "b-text-15",
+                    "type": "text",
+                    "expected": "ОТПРАВИТЬ ДАННЫЕ"
+                },
+                {
+                    "selector": "f-text-1",
+                    "type": "text",
+                    "expected": "Скачать:"
+                },
+                {
+                    "selector": "f-text-2",
+                    "type": "text",
+                    "expected": "support@mostbet."
+                },
+                {
+                    "selector": "f-text-3",
+                    "type": "text",
+                    "expected": "Отписаться"
+                }
+            ]
+        }
+    ]
+}

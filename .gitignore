@@ -1,0 +1,65 @@
+import pytest
+import requests
+from bs4 import BeautifulSoup
+
+def load_html(url, timeout=10):
+    """
+    Загружает HTML-страницу по URL.
+
+    :param url: Ссылка на страницу
+    :param timeout: Таймаут запроса (по умолчанию 10 секунд)
+    :return: HTML-код (str) или None в случае ошибки
+    """
+    try:
+        response = requests.get(url, timeout=timeout)
+
+        if response.status_code == 200:
+            return response.text  # Возвращаем HTML-код
+        else:
+            print(f"❌ Ошибка загрузки {url}: Код {response.status_code}")
+            return None
+
+    except requests.exceptions.Timeout:
+        print(f"❌ Таймаут при загрузке {url}")
+        return None
+
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Ошибка сети: {e}")
+        return None
+
+def parse_html(html):
+    """
+    Преобразует HTML-код в объект BeautifulSoup.
+
+    :param html: HTML-код (str)
+    :return: Объект BeautifulSoup
+    """
+    if html:
+        return BeautifulSoup(html, "html.parser")
+    return None
+
+
+
+
+
+
+
+
+
+
+
+
+
+    from utils.parser import load_html, parse_html
+
+url = "https://gitlab.dats.tech/crm/layouts/-/blob/main/Mostbet/RU/System/(MB)%20frozen_account_RU.html?ref_type=heads"  # Подставь нужный URL
+
+html = load_html(url)  # Загружаем HTML
+assert html, "❌ Ошибка: HTML-файл пуст или не загружен!"
+
+soup = parse_html(html)  # Преобразуем в BeautifulSoup
+assert soup, "❌ Ошибка: HTML не распознан!"
+
+# Получаем заголовок письма
+title = soup.find("h1").text if soup.find("h1") else "❌ Заголовок не найден"
+print(f"✅ Заголовок письма: {title}")
